@@ -1,0 +1,37 @@
+{% load i18n %}
+<ul>
+  <li><a href="{% url 'home' %}">Inicio</a></li>
+  <li><a href="{% url "autor:list" %}">Autores</a></li>
+  <li><a href="{% url "libro:list" %}">Libros</a></li>
+  <li><a href="{% url 'editorial:list' %}">Editoriales</a></li>
+  <li><a href="{% url 'search' %}">Buscar</a></li>
+  <li><a href="{% url 'contacto' %}">Contacto</a></li>
+</ul>
+
+{% if request.user.is_authenticated %}
+  <p>Usuario logueado: {{request.user.email}}</p>
+{% endif %}
+
+<form action="{% url 'set_language' %}" method="post">
+  {% csrf_token %}
+  <select name="language">
+    {% get_current_language as LANGUAGE_CODE %}
+    {% for lang_code, lang_name in LANGUAGES %}
+      <option value="{{ lang_code }}" {% if LANGUAGE_CODE == lang_code %}selected{% endif %}>
+        {{ lang_name }} ({{ lang_code }})
+      </option>
+    {% endfor %}
+  </select>
+  <input type="hidden" name="next" value="{{ request.path }}">
+  <input type="submit" value="{% trans 'Cambiar' %}">
+</form>
+
+{% if messages %}
+  <section class="messages">
+    <ul>
+      {% for message in messages %}
+        <li class="message {{message.tags}}">{{ message }} - Categoría: {{message.tags}}</li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endif %}

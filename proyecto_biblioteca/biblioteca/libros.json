@@ -1,0 +1,48 @@
+[
+{
+    "model": "books.libro",
+    "pk": 13,
+    "fields": {
+        "titulo": "El principito",
+        "titulo_es": "El principito",
+        "titulo_en": "The little king",
+        "isbn": "43434lkj34",
+        "fecha_publicacion": "2024-05-06",
+        "numero_paginas": 233,
+        "idioma": "ES",
+        "descripcion": "Historia de un niño que se convierte en rey",
+        "descripcion_es": "Historia de un niño que se convierte en rey",
+        "descripcion_en": "History of a little boy that becmos king",
+        "editorial": 1,
+        "genero": "Infantil",
+        "precio": "12.00",
+        "created_by": 2,
+        "autores": [
+            1
+        ]
+    }
+},
+{
+    "model": "books.libro",
+    "pk": 14,
+    "fields": {
+        "titulo": "Las aventuras de un capitan",
+        "titulo_es": "Las aventuras de un capitan",
+        "titulo_en": "The adventures of a captain",
+        "isbn": "oeijdk3553",
+        "fecha_publicacion": "2024-10-02",
+        "numero_paginas": 355,
+        "idioma": "ES",
+        "descripcion": "Libro narra las azañas de un capitan de barco y sus tripulantes",
+        "descripcion_es": "Libro narra las azañas de un capitan de barco y sus tripulantes",
+        "descripcion_en": "The book tells the exploits of a ship captain and his crew.",
+        "editorial": 2,
+        "genero": "Aventuras",
+        "precio": "12.00",
+        "created_by": 1,
+        "autores": [
+            1
+        ]
+    }
+}
+]

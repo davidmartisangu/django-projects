@@ -1,0 +1,16 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Página de Editoriales{% endblock  %}
+{% block page_title %}Editoriales{% endblock  %}
+
+{% block page_content %}
+
+<h2>Lista completa de editoriales</h2>
+    <ul>
+        {% for editorial in editoriales %}
+            <li><a href="{% url 'editorial:detail' editorial.pk %}">{{editorial.nombre}}</a></li>
+        {% endfor %}
+    </ul>
+    
+<p><a href="{% url "editorial:create" %}">Crear nueva editorial</a></p>
+{% endblock  %}

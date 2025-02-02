@@ -1,0 +1,1211 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-07-15T04:40:23.172Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Título del Libro 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Isbn\", \"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-07-15T04:40:31.029Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Título del Libro 9",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-07-15T04:40:36.287Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Título del Libro 8",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-07-15T04:40:41.738Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Título del Libro 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-07-15T04:40:45.776Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Título del Libro 6",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-07-15T04:40:55.005Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Título del Libro 5",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-07-15T04:41:00.189Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Título del Libro 4",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-07-15T04:41:04.716Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Título del Libro 3",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-07-15T04:41:13.766Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Título del Libro 2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-07-15T04:41:23.939Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Título del Libro 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Idioma\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-07-15T04:53:20.296Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "David Marti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-07-15T04:54:09.127Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "Título del Libro 7",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-09-09T14:20:58.511Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Editorial 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created by\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-09-09T14:48:09.564Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Título del Libro 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created by\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-09-09T14:54:44.415Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Título del Libro 1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-09-09T14:58:53.072Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Título del Libro 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Created by\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-10-02T05:09:12.058Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "13",
+        "object_repr": "The little king",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.016Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "12",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.042Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.073Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.103Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.132Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.158Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.186Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-10-02T05:12:33.212Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-10-02T05:14:57.495Z",
+        "user": 2,
+        "content_type": 9,
+        "object_id": "14",
+        "object_repr": "The adventures of a captain",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add editorial",
+        "content_type": 7,
+        "codename": "add_editorial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change editorial",
+        "content_type": 7,
+        "codename": "change_editorial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete editorial",
+        "content_type": 7,
+        "codename": "delete_editorial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view editorial",
+        "content_type": 7,
+        "codename": "view_editorial"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add autor",
+        "content_type": 8,
+        "codename": "add_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change autor",
+        "content_type": 8,
+        "codename": "change_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete autor",
+        "content_type": 8,
+        "codename": "delete_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view autor",
+        "content_type": 8,
+        "codename": "view_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add libro",
+        "content_type": 9,
+        "codename": "add_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change libro",
+        "content_type": 9,
+        "codename": "change_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete libro",
+        "content_type": 9,
+        "codename": "delete_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view libro",
+        "content_type": 9,
+        "codename": "view_libro"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$48qPUsH3JK88HgCY5aYcQD$aheXfCBowRK4tlKf53Ve5q8s5C5yG7YaCWCH4PTCrLw=",
+        "last_login": "2024-07-15T03:40:06.227Z",
+        "is_superuser": true,
+        "username": "davidmartisangu",
+        "first_name": "",
+        "last_name": "",
+        "email": "davidmartisangu@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-07-14T18:47:21.499Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$H9DZ5Wo1LWat4uEby7LaxE$MSQZFthmJMK1D7WyPQf3HzqIRD1BpsbtRrD/MG2c90Y=",
+        "last_login": "2024-09-27T04:03:37.489Z",
+        "is_superuser": true,
+        "username": "davidmarti",
+        "first_name": "",
+        "last_name": "",
+        "email": "davidmartisangu@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-08-27T04:42:22.959Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "books",
+        "model": "editorial"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "books",
+        "model": "autor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "books",
+        "model": "libro"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "54fll37jlr4drfbb9xoyjzgjnz9facke",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCDAFcuvcMBIZBqgaS0q6Md9cmXej2v_f-S4S4rTVsg5cwZ3EWWpx-txTpwW0H-R7brUvqbV3mJHdFHnTIa8_8vBzu30GNo35rMmiMJvbZakRgh-A0QjETYPEUjbLIxTtfIHkLzmWbFU3OMFEBUuL9AcGwN2U:1sio3k:U0yW_R18E5YzWUBvFQIHpdO4FLHlDAvODOwEY9WOOLo",
+        "expire_date": "2024-09-10T04:44:00.806Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a4hs95ofhd3e31auhfnohyw3k8re3t39",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle__BS0ucM1vqHA8iW4qRC3B0ipYD2zcx7MU_bWv028uLnxC4M2Ol3CxQfue0g3andOo-9rcsc-K7wgw4-9ZSf18P9O6g06rd2LouQSrKQA0JwCDplJ6Q1UKyxGuUZXQCpTHTFAgpSQFEJoQmjspq9P9KjNuc:1sT4Hj:h2EQckACFdeTPWyp3yQoIConE-ddeKv4n8vzY0VvcNo",
+        "expire_date": "2024-07-28T18:49:23.942Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pbuul0k6pjfi9e0i182k4q6xa6jxgct2",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCDAFcuvcMBIZBqgaS0q6Md9cmXej2v_f-S4S4rTVsg5cwZ3EWWpx-txTpwW0H-R7brUvqbV3mJHdFHnTIa8_8vBzu30GNo35rMmiMJvbZakRgh-A0QjETYPEUjbLIxTtfIHkLzmWbFU3OMFEBUuL9AcGwN2U:1skPSy:OgwZTSWJ3bx9Ggb57Hda7j4lKceiiAicCA-x9e5QBL4",
+        "expire_date": "2024-09-14T14:52:40.020Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ru796n835wggvyemmayzqosagq142ncv",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCDAFcuvcMBIZBqgaS0q6Md9cmXej2v_f-S4S4rTVsg5cwZ3EWWpx-txTpwW0H-R7brUvqbV3mJHdFHnTIa8_8vBzu30GNo35rMmiMJvbZakRgh-A0QjETYPEUjbLIxTtfIHkLzmWbFU3OMFEBUuL9AcGwN2U:1su2Cf:mkjaIX649dJS2ivTBWyEQ5J_Ozdr0cfk6D-3tdFQUBs",
+        "expire_date": "2024-10-11T04:03:37.822Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "u6txyx258gfcgkeg2153wemfy842t6cw",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCDAFcuvcMBIZBqgaS0q6Md9cmXej2v_f-S4S4rTVsg5cwZ3EWWpx-txTpwW0H-R7brUvqbV3mJHdFHnTIa8_8vBzu30GNo35rMmiMJvbZakRgh-A0QjETYPEUjbLIxTtfIHkLzmWbFU3OMFEBUuL9AcGwN2U:1smcf6:9ENk9IibdwnDO8__z4C0d2-ME1Ny53vznlqpta9pDv8",
+        "expire_date": "2024-09-20T17:22:20.249Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uhpwi8911fz4h9kmgp7w2mhf5ajf44yo",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle__BS0ucM1vqHA8iW4qRC3B0ipYD2zcx7MU_bWv028uLnxC4M2Ol3CxQfue0g3andOo-9rcsc-K7wgw4-9ZSf18P9O6g06rd2LouQSrKQA0JwCDplJ6Q1UKyxGuUZXQCpTHTFAgpSQFEJoQmjspq9P9KjNuc:1sTCZK:DRCN9Mttpp5uPDIYOGom-IKrLPcXaalXmVWgMGl9GIY",
+        "expire_date": "2024-07-29T03:40:06.255Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "v0rqx6slknaq95zdqjk4aisy928lvlte",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pDCDAFcuvcMBIZBqgaS0q6Md9cmXej2v_f-S4S4rTVsg5cwZ3EWWpx-txTpwW0H-R7brUvqbV3mJHdFHnTIa8_8vBzu30GNo35rMmiMJvbZakRgh-A0QjETYPEUjbLIxTtfIHkLzmWbFU3OMFEBUuL9AcGwN2U:1slKXi:40bY9ZYjOGeWXAqD5jEPKKSTWf_Kz4mURtVARAbhe_4",
+        "expire_date": "2024-09-17T03:49:22.044Z"
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 1,
+    "fields": {
+        "nombre": "Editorial 1",
+        "direccion": "Dirección 1",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00001",
+        "telefono": "1234567891",
+        "email": "editorial1@example.com",
+        "sitio_web": "http://editorial1.com",
+        "fecha_fundacion": "2001-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 2,
+    "fields": {
+        "nombre": "Editorial 2",
+        "direccion": "Dirección 2",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00002",
+        "telefono": "1234567892",
+        "email": "editorial2@example.com",
+        "sitio_web": "http://editorial2.com",
+        "fecha_fundacion": "2002-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 3,
+    "fields": {
+        "nombre": "Editorial 3",
+        "direccion": "Dirección 3",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00003",
+        "telefono": "1234567893",
+        "email": "editorial3@example.com",
+        "sitio_web": "http://editorial3.com",
+        "fecha_fundacion": "2003-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 5,
+    "fields": {
+        "nombre": "Editorial 5",
+        "direccion": "Dirección 5",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00005",
+        "telefono": "1234567895",
+        "email": "editorial5@example.com",
+        "sitio_web": "http://editorial5.com",
+        "fecha_fundacion": "2005-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 6,
+    "fields": {
+        "nombre": "Editorial 6",
+        "direccion": "Dirección 6",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00006",
+        "telefono": "1234567896",
+        "email": "editorial6@example.com",
+        "sitio_web": "http://editorial6.com",
+        "fecha_fundacion": "2006-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 7,
+    "fields": {
+        "nombre": "Editorial 7",
+        "direccion": "Dirección 7",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00007",
+        "telefono": "1234567897",
+        "email": "editorial7@example.com",
+        "sitio_web": "http://editorial7.com",
+        "fecha_fundacion": "2007-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 8,
+    "fields": {
+        "nombre": "Editorial 8",
+        "direccion": "Dirección 8",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00008",
+        "telefono": "1234567898",
+        "email": "editorial8@example.com",
+        "sitio_web": "http://editorial8.com",
+        "fecha_fundacion": "2008-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 9,
+    "fields": {
+        "nombre": "Editorial 9",
+        "direccion": "Dirección 9",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "00009",
+        "telefono": "1234567899",
+        "email": "editorial9@example.com",
+        "sitio_web": "http://editorial9.com",
+        "fecha_fundacion": "2009-01-01",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 10,
+    "fields": {
+        "nombre": "Editorial 10",
+        "direccion": "Dirección 10",
+        "ciudad": "Ciudad",
+        "estado": "Estado",
+        "pais": "País",
+        "codigo_postal": "000010",
+        "telefono": "12345678910",
+        "email": "editorial10@example.com",
+        "sitio_web": "http://editorial10.com",
+        "fecha_fundacion": "2010-01-01",
+        "created_by": 2
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 13,
+    "fields": {
+        "nombre": "Prueba ccbv",
+        "direccion": null,
+        "ciudad": null,
+        "estado": null,
+        "pais": null,
+        "codigo_postal": null,
+        "telefono": null,
+        "email": "ccbv@prueba.com",
+        "sitio_web": null,
+        "fecha_fundacion": "2025-08-30",
+        "created_by": null
+    }
+},
+{
+    "model": "books.editorial",
+    "pk": 15,
+    "fields": {
+        "nombre": "Prueba created_by",
+        "direccion": "Algún sitio",
+        "ciudad": "Encantado",
+        "estado": "Alguno",
+        "pais": "Nunca jamas",
+        "codigo_postal": "12345",
+        "telefono": "987654321",
+        "email": "created_by@probando.es",
+        "sitio_web": null,
+        "fecha_fundacion": "2022-07-12",
+        "created_by": 2
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 1,
+    "fields": {
+        "nombre": "Jose",
+        "apellido": "Cela",
+        "fecha_nacimiento": "1971-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 1",
+        "email": "autor1@example.com",
+        "telefono": "9876543211",
+        "sitio_web": "http://autor1.com",
+        "premios": "Premio 1"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 2,
+    "fields": {
+        "nombre": "Nombre 2",
+        "apellido": "Apellido 2",
+        "fecha_nacimiento": "1972-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 2",
+        "email": "autor2@example.com",
+        "telefono": "9876543212",
+        "sitio_web": "http://autor2.com",
+        "premios": "Premio 2"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 3,
+    "fields": {
+        "nombre": "Nombre 3",
+        "apellido": "Apellido 3",
+        "fecha_nacimiento": "1973-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 3",
+        "email": "autor3@example.com",
+        "telefono": "9876543213",
+        "sitio_web": "http://autor3.com",
+        "premios": "Premio 3"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 4,
+    "fields": {
+        "nombre": "Nombre 4",
+        "apellido": "Apellido 4",
+        "fecha_nacimiento": "1974-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 4",
+        "email": "autor4@example.com",
+        "telefono": "9876543214",
+        "sitio_web": "http://autor4.com",
+        "premios": "Premio 4"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 5,
+    "fields": {
+        "nombre": "Nombre 5",
+        "apellido": "Apellido 5",
+        "fecha_nacimiento": "1975-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 5",
+        "email": "autor5@example.com",
+        "telefono": "9876543215",
+        "sitio_web": "http://autor5.com",
+        "premios": "Premio 5"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 6,
+    "fields": {
+        "nombre": "Nombre 6",
+        "apellido": "Apellido 6",
+        "fecha_nacimiento": "1976-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 6",
+        "email": "autor6@example.com",
+        "telefono": "9876543216",
+        "sitio_web": "http://autor6.com",
+        "premios": "Premio 6"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 7,
+    "fields": {
+        "nombre": "Nombre 7",
+        "apellido": "Apellido 7",
+        "fecha_nacimiento": "1977-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 7",
+        "email": "autor7@example.com",
+        "telefono": "9876543217",
+        "sitio_web": "http://autor7.com",
+        "premios": "Premio 7"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 8,
+    "fields": {
+        "nombre": "Nombre 8",
+        "apellido": "Apellido 8",
+        "fecha_nacimiento": "1978-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 8",
+        "email": "autor8@example.com",
+        "telefono": "9876543218",
+        "sitio_web": "http://autor8.com",
+        "premios": "Premio 8"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 9,
+    "fields": {
+        "nombre": "Nombre 9",
+        "apellido": "Apellido 9",
+        "fecha_nacimiento": "1979-01-01",
+        "nacionalidad": "Nacionalidad",
+        "biografia": "Biografía del autor 9",
+        "email": "autor9@example.com",
+        "telefono": "9876543219",
+        "sitio_web": "http://autor9.com",
+        "premios": "Premio 9"
+    }
+},
+{
+    "model": "books.autor",
+    "pk": 11,
+    "fields": {
+        "nombre": "David",
+        "apellido": "Marti",
+        "fecha_nacimiento": "1990-07-15",
+        "nacionalidad": "Española",
+        "biografia": "Algo obligado",
+        "email": "davidmartisangu@gmail.com",
+        "telefono": "650529160",
+        "sitio_web": "http://ama.com",
+        "premios": "solo por rellenar"
+    }
+},
+{
+    "model": "books.libro",
+    "pk": 13,
+    "fields": {
+        "titulo": "El principito",
+        "titulo_es": "El principito",
+        "titulo_en": "The little king",
+        "isbn": "43434lkj34",
+        "fecha_publicacion": "2024-05-06",
+        "numero_paginas": 233,
+        "idioma": "ES",
+        "descripcion": "Historia de un niño que se convierte en rey",
+        "descripcion_es": "Historia de un niño que se convierte en rey",
+        "descripcion_en": "History of a little boy that becmos king",
+        "editorial": 1,
+        "genero": "Infantil",
+        "precio": "12.00",
+        "created_by": 2,
+        "autores": [
+            1
+        ]
+    }
+},
+{
+    "model": "books.libro",
+    "pk": 14,
+    "fields": {
+        "titulo": "Las aventuras de un capitan",
+        "titulo_es": "Las aventuras de un capitan",
+        "titulo_en": "The adventures of a captain",
+        "isbn": "oeijdk3553",
+        "fecha_publicacion": "2024-10-02",
+        "numero_paginas": 355,
+        "idioma": "ES",
+        "descripcion": "Libro narra las azañas de un capitan de barco y sus tripulantes",
+        "descripcion_es": "Libro narra las azañas de un capitan de barco y sus tripulantes",
+        "descripcion_en": "The book tells the exploits of a ship captain and his crew.",
+        "editorial": 2,
+        "genero": "Aventuras",
+        "precio": "12.00",
+        "created_by": 1,
+        "autores": [
+            1
+        ]
+    }
+}
+]

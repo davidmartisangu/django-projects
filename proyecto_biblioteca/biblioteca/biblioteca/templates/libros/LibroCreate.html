@@ -1,0 +1,13 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Página de Libros{% endblock  %}
+{% block page_title %}Libros{% endblock  %}
+
+{% block page_content %}
+    <h2>Libro nuevo</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button>Guardar</button>
+    </form>
+{% endblock  %}

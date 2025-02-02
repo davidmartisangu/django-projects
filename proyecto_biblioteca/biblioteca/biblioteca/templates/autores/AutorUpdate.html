@@ -1,0 +1,17 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Página de Detalles Autores{% endblock  %}
+{% block page_title %}Autor{% endblock  %}
+
+
+{% block page_content %}
+    <h2>Editar autor</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button>Modificar autor</button>
+        <a href="{% url "autor:list" %}">Cancelar</a>
+    </form>
+
+
+{% endblock  %}

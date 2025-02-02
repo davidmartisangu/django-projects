@@ -1,0 +1,15 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Página de Libros{% endblock  %}
+{% block page_title %}Libros{% endblock  %}
+
+{% block page_content %}
+    <h2>Nombre: {{ libro.titulo }}</h2>
+    <p>Isbn: {{ libro.isbn }}</p>
+    <p>Fecha publicacion: {{ libro.fecha_publicacion }}</p>
+
+    <p><a href="{% url "libro:update" libro.pk %}">Editar</a>-
+        <a href="{% url "libro:delete" libro.pk %}">Eliminar</a></p>  
+
+    <p><a href="{% url "libro:list" %}">Volver a la lista de libros</a></p>
+{% endblock  %}

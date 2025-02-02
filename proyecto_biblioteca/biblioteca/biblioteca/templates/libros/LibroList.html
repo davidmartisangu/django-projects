@@ -1,0 +1,17 @@
+{% extends "general/layout.html" %}
+
+{% block head_title %}Página de Libros{% endblock  %}
+{% block page_title %}Libros{% endblock  %}
+
+{% block page_content %}
+    <h2>Lista completa de libros</h2>
+
+    <ul>
+        {% for libro in libros %}
+            <li><a href="{% url "libro:detail" libro.pk %}">{{libro.titulo}}</a></li>
+        {% endfor %}
+    </ul>
+
+    <p><li><a href="{% url "libro:create" %}">Nuevo libro</a></li></p>
+    
+{% endblock  %}

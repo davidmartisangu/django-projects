@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block head_title %}Título base{% endblock %}</title>
+    <style>
+        .message.info{
+            background-color: #40a8f6;
+        }
+
+        .message.error{
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>{% block page_title %}Título página{% endblock  %}</h1>
+
+    {% include "_includes/_menu_principal.html" %}
+
+    {% block page_content %}
+
+    {% endblock  %}
+
+    {% include "_includes/_footer.html" %}
+
+</body>
+</html>

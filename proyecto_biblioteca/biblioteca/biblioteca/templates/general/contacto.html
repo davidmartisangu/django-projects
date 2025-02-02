@@ -1,0 +1,26 @@
+{% extends "general/layout.html" %}
+{% load i18n %}
+
+{% block head_title %}Página Contacto{% endblock  %}
+{% block page_title %}{% trans 'Esto es la página de contacto'%}{% endblock  %}
+
+{% block page_content %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{formulario.as_p}}
+
+        {% comment %} <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="nombre" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" required></textarea>
+        </div> {% endcomment %}
+        <button>{% trans 'Enviar'%}</button>
+    </form>
+{% endblock page_content %}
